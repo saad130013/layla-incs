@@ -1,0 +1,11 @@
+
+/* Base styles handled by Tailwind CDN, kept here for print and minor tweaks */
+@media print {
+  .no-print { display: none !important; }
+  .print-only { display: block !important; }
+  body { background-color: white !important; padding: 0 !important; }
+}
+
+.font-sans {
+  font-family: 'Inter', sans-serif;
+}
